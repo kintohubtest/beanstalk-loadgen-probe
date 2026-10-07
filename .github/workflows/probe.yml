@@ -1,0 +1,9 @@
+name: suite
+on:
+  pull_request:
+  push:
+jobs:
+  suite:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo ok
